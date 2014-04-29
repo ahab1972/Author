@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Be an Author</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova-2.3.0.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+        // external url
+      //  var ref = window.open(encodeURI('http://apache.org'), '_blank', 'location=yes');
+        // relative document
+       // ref = window.open('next.html', '_self');
+    }
+
+	function onLoad() {
+		document.addEventListener("deviceready", onDeviceReady, false);
+		window.open('https://docs.google.com/document/d/1goM8rmeltb4wEdAxFFR7sOKPz1BELRPpn97hxT7cgig/edit?usp=sharing','_blank','location=yes','closebuttoncaption=back');
+	}
+	
+    </script>
+  </head>
+  <body onLoad="onLoad()">
+  
+  <body>
+  <!--
+	<a href="#" onclick="window.open('http://www.dn.se','_blank','location=yes','closebuttoncaption=back');">open</a>
+ -->
+  
+  </body>
+</html>
